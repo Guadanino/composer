@@ -1,17 +1,11 @@
 <?php
 
-namespace app;
+namespace App;
 
 class Hello 
 {
-    public function speak(string $lang = 'fr'): string
+    public function talk(): string
     {
-        if ($lang === 'fr') {
-            $message = 'Bonjour le monde !';
-        } else {
-            $message = 'Welcome world !';
-        }
-
-        return $message;
+        return 'Hello world';
     }
 }
